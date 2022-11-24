@@ -2,6 +2,7 @@ public FeeCalculation feeCalculation;
 public void setUp() {
 	feeCalculation = new FeeCalculation();
 }
+@Test
 public void testTypicalResults() {
 	Account accounts[] = new Account[3];
 
